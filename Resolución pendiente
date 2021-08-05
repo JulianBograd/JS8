@@ -1,0 +1,7 @@
+function main() {
+    var numberVolunteers = parseInt(readLine(), 10)
+    // Tu código va aquí
+    var voluntarios_sobrantes = (numberVolunteers %5)
+    var voluntarios_faltantes = (-numberVolunteers ++);
+    console.log(voluntarios_faltantes);
+}
